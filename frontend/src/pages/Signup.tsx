@@ -1,4 +1,4 @@
-import Auth from "../components/Auth";
+import SignUpForm from "../components/SignUpForm";
 import Quote from "../components/Quote";
 
 const Signup = () => {
@@ -6,7 +6,7 @@ const Signup = () => {
     <>
       <div className="grid grid-cols-1 lg:grid-cols-2">
         <div>
-          <Auth type="signup" />
+          <SignUpForm />
         </div>
         <div className="hidden lg:block">
           <Quote />
